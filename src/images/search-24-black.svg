@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>65CCEA3B-72D0-48AB-B401-E05E8F546BFB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/search_24_black">
+            <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+            <g id="Icon/search_blue_24">
+                <rect id="Rectangle-10" x="0" y="0" width="24" height="24"></rect>
+                <circle id="Oval-3" stroke="#666561" cx="10" cy="10" r="6.5"></circle>
+                <rect id="Rectangle-17" fill="#666561" transform="translate(17.181981, 17.181981) rotate(-45.000000) translate(-17.181981, -17.181981) " x="16.6819805" y="13.1819805" width="1" height="8" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

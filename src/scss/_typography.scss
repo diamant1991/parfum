@@ -1,0 +1,40 @@
+b,
+strong{
+	font-weight: bold;
+}
+i{
+	font-weight: 400;
+	font-style: italic;
+}
+h4{
+	font-size: 20px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h2{
+	font-size: 36px;
+	font-weight: bold;
+}
+.item-title{
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.text-block{
+	p{
+		font-size: 16px;
+		 color: #4b4b4b;
+		 line-height: 1.5;
+	}
+	.btn{
+		margin-top: 45px;
+	}
+}
+.link{
+	color: #666561;
+	font-size: 14px;
+
+	border-bottom: 1px dashed;
+}

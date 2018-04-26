@@ -1,0 +1,115 @@
+.shares{
+	&__item{
+		height: 255px;
+		background-image: radial-gradient(circle at 52% 46%, #fafafa, #e7e0e2);
+
+		&__large{
+			position: relative;
+		}
+
+		&__img{
+			width: 100%;
+			text-align: center;
+		}
+		&__large{
+			height: 510px;
+			background: #f2f2f6;
+			padding: 80px;
+			padding-left: 95px;
+			background: none;
+
+			p{
+				font-size: 18px;
+				margin-bottom: 55px;
+			}
+
+			.shares__title{
+				&:before{
+					top: 20px;
+				}
+			}
+		}
+	}
+	&__text{
+		background: #fafafa;
+		padding: 32px;
+		padding-left: 70px;
+		padding-right: 15px;
+
+		p{
+			font-size: 14px;
+			color: #4b4b4b;
+			font-weight: 300;
+			margin-bottom: 15px;
+		}
+		a{
+			font-size: 14px;
+			color: #1b1a1a;
+			border-bottom: 1px dashed;
+		}
+	}
+	&__title{
+		text-transform: uppercase;
+		font-weight: 300;
+		position: relative;
+		margin-bottom: 15px;
+
+		b{
+			font-weight: 500;
+			display: block;
+			margin-left: -15px;
+		}
+	}
+	&__title{
+		&:before{
+			content: "";
+			display: block;
+			width: 32px;
+  		height: 2px;
+		  border-radius: 8px;
+		  position: absolute;
+		  z-index: 2;
+		  left: -40px;
+		  top: 12px;
+		  background-color: #ba006d;
+		}
+	}
+}
+.shares-big-img{
+	position: absolute;
+	z-index: 2;
+	right: 40px;
+	top: 0;
+	height: 100%;
+
+	> div{
+		width: 100%;
+	}
+}
+.shares-carousel-text{
+	max-width: 275px;
+}
+.shares-btn{
+	position: absolute;
+	z-index: 2;
+	right: 15px;
+	bottom: 10px;
+}
+.shares-carousel{
+	background: #f2f2f6;
+
+	.slick-dots{
+		margin-top: 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 20px;
+		left: 0;
+		width: 100%;
+	}
+	.slick-list{
+		margin: 0;
+	}
+	.slick-slide{
+		margin: 0;
+	}
+}

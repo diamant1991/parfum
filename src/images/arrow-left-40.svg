@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>5CCEA889-BBA7-4E95-AEC6-24D49DC8C7A5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/arrow_left_40">
+            <rect id="Rectangle-15" x="0" y="0" width="40" height="40"></rect>
+            <g id="Group-24-Copy-2" opacity="0.799999952" transform="translate(20.000000, 20.000000) rotate(180.000000) translate(-20.000000, -20.000000) translate(4.000000, 4.000000)">
+                <circle id="Oval" stroke="#3B3B3B" cx="16" cy="16" r="16.5"></circle>
+                <path d="M18.583815,21.7639344 C18.7456647,21.9213115 18.9479769,22 19.1705202,22 C19.3728324,22 19.5953757,21.9213115 19.7572254,21.7639344 C20.0809249,21.4491803 20.0809249,20.9377049 19.7572254,20.6229508 L15.0028902,16 L19.7572254,11.3770492 C20.0809249,11.0622951 20.0809249,10.5508197 19.7572254,10.2360656 C19.433526,9.92131148 18.9075145,9.92131148 18.583815,10.2360656 L13.2427746,15.4295082 C13.0809249,15.5868852 13,15.7836066 13,16 C13,16.2163934 13.0809249,16.4131148 13.2427746,16.5704918 L18.583815,21.7639344 Z" id="Shape" fill="#3B3B3B" fill-rule="nonzero" transform="translate(16.500000, 16.000000) scale(-1, 1) translate(-16.500000, -16.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

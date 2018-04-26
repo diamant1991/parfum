@@ -1,0 +1,167 @@
+.top-panel{
+	font-size: 14px;
+	color: $grey;
+	padding: 15px 0;
+	border-bottom: 1px solid #e5e5e5;
+
+	&__item{
+		+ .top-panel__item{
+			margin-left: 60px;
+		}
+	}
+}
+
+.top-menu{
+	li{
+		display: inline-block;
+		vertical-align: middle;
+
+		+ li{
+			margin-left: 24px;
+		}
+	}
+	a{
+		font-size: 14px;
+		color: $grey;
+	}
+}
+.profile{
+	&__btn{
+		+ .profile__btn{
+			margin-left: 15px;
+		}
+	}
+}
+.get-call{
+	div{
+		 + div{
+		 	margin-top: 10px;
+		 }
+	}
+	a{
+		color: $grey;
+		border-bottom: 1px solid $grey;
+	}
+}
+.logo{
+	&__name{
+		width: 136px;
+		height: 32px;
+		line-height: 32px;
+		background: $purple;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	&__descr{
+		text-align: center;
+		font-size: 14px;
+		color: $grey;
+	}
+}
+.menu{
+	font-size: 14px;
+
+	li{
+		display: inline-block;
+		vertical-align: middle;
+
+		+ li{
+			margin-left: 23px;
+		}
+	}
+	a{
+		font-weight: 500;
+		color: #000;
+	}
+}
+.header{
+	&__center{
+		padding: 20px 0;
+		border-bottom: 1px solid #e5e5e5;
+	}
+}
+.search{
+	width: 255px;
+	position: relative;
+
+	&__field{
+		display: block;
+		padding-left: 15px;
+		padding-right: 70px;
+		outline: 0;
+		width: 100%;
+		height: 40px;
+	  border-radius: 2px;
+	  background-color: #ffffff;
+	  border: solid 1px #d2d2d2;
+	}
+	&__btn{
+		position: absolute;
+		z-index: 2;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 55px;
+		background: url(../images/search-24-copy.svg)no-repeat 50% #5983f0;
+		cursor: pointer;
+		border: 0;
+		outline: 0;
+	}
+}
+.menu-arrow{
+	position: relative;
+	top: 1px;
+}
+.filter{
+	padding: 15px 0;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 14px;
+	color: $grey;
+	margin-bottom: 25px;
+}
+.alphabet{
+	a{
+		color: $grey;
+
+		+ a{
+			margin-left: 24px;
+		}
+	}
+}
+.menu-btn{
+	cursor: pointer;
+
+	&__text{
+		margin-left: 5px;
+		position: relative;
+		top: -1px;
+	}
+}
+.select-item {
+	display: block;
+	color: #4b4b4b;
+	font-size: 14px;
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  font-family: $roboto;
+  padding-left: 15px;
+  padding-right: 30px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+  -webkit-appearance: none;
+  background-image: url('../images/arrow-down-24.svg');
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  line-height: 1em;
+  -moz-appearance: none;
+  text-indent: 0.01px; 
+  text-overflow: '';
+  -ms-appearance: none;
+  appearance: none!important;
+}
+ 
+.select-item::-ms-expand {
+  display: none;
+}

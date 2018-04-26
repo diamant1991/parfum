@@ -1,0 +1,30 @@
+.form-item
+	.container
+		.form-header
+			h2.item-title Онлайн заявка
+			p 
+				| Есть вопросы или пожелания? Нужна консультация?
+				br 
+				| Напишите нам или просто позвоните: 
+				b 8 800 337-37-38
+		.form-content
+			.row
+				.col-xl-5.col-md-5
+					.form-group
+						input(type="text" placeholder="Ваше имя").form-control
+					.form-group
+						input(type="text" placeholder="Ваш телефон").form-control
+					.form-group
+						input(type="text" placeholder="Прикрепить файл").form-control
+				.col-xl-7.col-md-7
+					.form-group
+						textarea(placeholder="Ваше сообщение").form-control
+				.col-xl-12.col-lg-12
+					.submit-group
+						button(type="submit").btn.btn--form Отправить
+				.col-xl-12.col-lg-12
+					.checkbox-group
+						input(type="checkbox")#checkbox.checkbox
+						label(for="checkbox") 
+							| Я принимаю 
+							a(href="#") условия передачи информации

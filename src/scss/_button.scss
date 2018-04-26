@@ -1,0 +1,45 @@
+.btn{
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	width: 129px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ba006d;
+  line-height: 48px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.btn--black{
+	width: 96px;
+  height: 40px;
+  border-radius: 2px;
+  border: solid 1px #636363;
+  line-height: 38px;
+  background: #fff;
+  font-size: 14px;
+  color: #4b4b4b;
+
+  &:hover{
+  	background: $purple;
+  	color: #fff;
+  	border-color: $purple;
+  }
+}
+.btn--form{
+  width: 232px;
+  height: 56px;
+  border-radius: 2px;
+  background-color: #ba006d;
+  font-size: 16px;
+}
+.btn--white{
+  width: 185px;
+  font-size: 14px;
+  color: #a7938f;
+  background-color: #ffffff;
+}

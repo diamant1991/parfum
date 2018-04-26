@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>6807CB98-46BC-434F-BEE4-3287D00CAE85</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/shop_24">
+            <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+            <g id="Group" transform="translate(4.000000, 3.000000)" stroke="#666561">
+                <path d="M2.4336477,4.5 L0.821095134,15.787868 C0.811057286,15.8581329 0.806019375,15.9290217 0.806019375,16 C0.806019375,16.8284271 1.47759225,17.5 2.30601937,17.5 L13.6933378,17.5 C13.7644542,17.5 13.8354806,17.4949425 13.9058795,17.4848657 C14.7259482,17.3674821 15.295587,16.6075269 15.1782034,15.7874583 L13.5625313,4.5 L2.4336477,4.5 Z" id="Rectangle"></path>
+                <path d="M5.03050699,7 C4.80855151,2.3621528 5.79773405,0.0289063242 7.99805462,0.000260568405 C10.1983752,-0.0283851874 11.1891275,2.30486129 10.9703114,7" id="Path-12" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>CE85A382-09D0-4491-8186-07DFF4BA745F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/delivery_v_sng_104">
+            <rect id="Rectangle-5" fill="#EBEBEB" opacity="0.800000012" x="8" y="8" width="88" height="88" rx="44"></rect>
+            <g id="Group-3" transform="translate(18.000000, 17.000000)">
+                <g id="Group" transform="translate(0.000000, 17.000000)">
+                    <polygon id="Path-5" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0.596072704 46.204114 22.5529296 52.7007459 45.5289747 46.204114 68.4999129 53.2184301 68.4999129 7.42961466 45.5289747 2.22925808 22.5529296 7.42961466 0.596072704 0.808353852"></polygon>
+                    <rect id="Rectangle" fill="#4A4A4A" transform="translate(5.694336, 25.126178) rotate(18.000000) translate(-5.694336, -25.126178) " x="0.194336331" y="23.6261782" width="11" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#4A4A4A" transform="translate(56.876204, 27.134789) rotate(18.000000) translate(-56.876204, -27.134789) " x="44.8762037" y="25.6347887" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#4A4A4A" transform="translate(33.914215, 26.942918) rotate(-17.000000) translate(-33.914215, -26.942918) " x="21.9142146" y="25.4429176" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy" fill="#4A4A4A" transform="translate(17.694336, 29.126178) rotate(18.000000) translate(-17.694336, -29.126178) " x="12.1943363" y="27.6261782" width="11" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#4A4A4A" transform="translate(22.500000, 30.000000) rotate(90.000000) translate(-22.500000, -30.000000) " x="-0.5" y="28.5" width="46" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-2" fill="#4A4A4A" x="44" y="36" width="3" height="11" rx="1.5"></rect>
+                    <rect id="Rectangle-2" fill="#4A4A4A" x="44" y="2" width="3" height="32" rx="1.5"></rect>
+                </g>
+                <g id="Group-2" transform="translate(21.000000, 0.000000)" stroke="#BA006D" stroke-width="3">
+                    <path d="M12.9731031,34.9786695 C13.2590739,35.0405274 13.5370014,34.9678456 13.8068855,34.7606241 C15.2469989,33.6548812 16.6941662,31.7085335 17.2984832,31.0133105 C21.8836086,25.7384544 24.0502904,21.0865821 24.9408411,18.987092 C25.7086555,17.1769552 26.7254969,12.1845731 25.2375123,8.57088857 C24.5779161,6.96900869 23.3845772,5.26176142 21.8453087,3.87881202 C19.2856492,1.57909666 15.8672474,4.66815652e-15 13.074334,0 C11.8822091,-2.33466956e-15 9.32150666,0.113310776 7.18994928,1.4041317 C5.03933487,2.70649311 3.59260527,3.64398966 1.9232414,6.32058014 C0.710406406,8.26519069 -0.165241884,10.7000578 0.0263499319,13.7065753 C0.189856039,16.2723632 1.15609724,19.5733756 2.33760557,22.2119314 C4.313299,26.624069 7.69307138,29.9010308 9.27687617,32.0092579 C10.5873846,33.7536961 11.8194602,34.7434999 12.9731031,34.9786695 Z" id="Path-2" fill="#EFEFEF"></path>
+                    <circle id="Oval" cx="13" cy="13" r="6.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
