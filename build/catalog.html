@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width">
 		<title>
 		</title>
-		<link rel="stylesheet" href="css/main.css?v=1525501736264">
+		<link rel="stylesheet" href="css/main.css?v=1525518504833">
 	</head>
 	<body>
 		<header class="header">
@@ -77,126 +77,236 @@
 				</div>
 			</div>
 		</header>
-		<div class="shares">
+		<div class="content">
 			<div class="container">
-				<div class="row no-gutters reverse-sm">
-					<div class="col-lg-6 col-md-6">
-						<div class="row no-gutters reverse-sm">
-							<div class="col-lg-6">
-								<div class="shares__item shares__text hits-item">
-									<div class="shares__title">
-										<h4><span>Хиты</span><b>Продаж</b></h4>
-									</div>
-									<p>Лучшая мужская и женская парфюмерия</p><a href="# ">Подробнее</a>
-								</div>
-							</div>
-							<div class="col-lg-6 hidden-md">
-								<div class="shares__item row no-gutters align-items-center">
-									<div class="shares__item__img"><img src="http://via.placeholder.com/69x172" alt=""></div>
-								</div>
-							</div>
-							<div class="col-lg-6 hidden-md">
-								<div class="shares__item row no-gutters align-items-center">
-									<div class="shares__item__img"><img src="http://via.placeholder.com/69x172" alt=""></div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="shares__item shares__text">
-									<div class="shares__title">
-										<h4><span>Товары</span><b>со скидкой</b></h4>
-									</div>
-									<p>Духи со скидкой. Более 500 ароматов по низким ценам</p><a href="#">Подробнее</a>
-								</div>
-							</div>
-						</div>
+				<ul class="breadcrumb">
+					<li><a class="middle" href="#">Главная</a><span class="middle breadcrumb__delimiter">/			</span></li>
+					<li><a class="middle" href="#">Парфюмерия для женщин<span class="middle breadcrumb__delimiter">/</span></a></li>
+					<li><a href="#">Каталог товаров</a></li>
+				</ul>
+				<h1 class="page-title">Каталог товаров</h1>
+				<div class="catalog-filter-wrapp row no-gutters align-items-center justify-content-between">
+					<div class="catalog-filter row no-gutters align-items-center justify-content-between hidden-sm">
+						<div class="sorting"><a class="sorting__item is-active" href="#"> <span class="middle">по популярности</span><span class="middle"><img src="images/arrow-down-version-2-24.svg" alt=""></span></a><a class="sorting__item" href="#">по цене</a><a class="sorting__item" href="#">по алфавиту</a></div>
+						<div class="view"><a class="view-btn view-btn--list" href="#"></a><a class="view-btn view-btn--column is-active" href="#"></a></div>
 					</div>
-					<div class="col-lg-6 col-md-6">
-						<div class="shares-carousel">
-							<div>
-								<div class="shares__item shares__item__large">
-									<div class="shares-mobile-big-img visible-xs"><img src="http://via.placeholder.com/124x308" alt=""></div>
-									<div class="shares-carousel-text">
-										<div class="shares__title">
-											<h2><span>Подарок</span><b>из Германии</b></h2>
+					<div class="btn btn--black filter-btn visible-sm">По популярности</div>
+					<div class="btn btn--black filter-btn toggle-sidebar visible-md">Фильтры</div>
+				</div>
+				<div class="row no-gutters justify-content-between">
+					<div class="sidebar" id="sidebar">
+						<div class="sidebar-wrapp">
+							<div class="sidebar__item">
+								<div class="sidebar__btn active"><span class="table-cell sidebar__arrow"><img src="images/arrow-down-24.svg" alt=""></span><span class="table-cell">Бренд</span></div>
+								<div class="sidebar__content" style="display: block">
+									<div class="checkbox-row">
+										<div class="row no-gutters align-items-center justify-content-between">
+											<div class="checkbox-item">
+												<input class="checkbox" type="checkbox" id="val">
+												<label for="val">
+													 Значение</label>
+											</div>
+											<div class="checkbox-value">26</div>
 										</div>
-										<p>от 15% до 57% до конца месяца</p><a class="btn" href="#">Подробнее</a>
 									</div>
-									<div class="shares-big-img row no-gutters align-items-center hidden-xs">
-										<div><img src="http://via.placeholder.com/124x308" alt=""></div>
-									</div>
-								</div>
-							</div>
-							<div>
-								<div class="shares__item shares__item__large">
-									<div class="shares-mobile-big-img visible-xs"><img src="http://via.placeholder.com/124x308" alt=""></div>
-									<div class="shares-carousel-text">
-										<div class="shares__title">
-											<h2><span>Подарок</span><b>из Германии</b></h2>
+									<div class="checkbox-row">
+										<div class="row no-gutters align-items-center justify-content-between">
+											<div class="checkbox-item">
+												<input class="checkbox" type="checkbox" id="val2">
+												<label for="val2">
+													 Значение</label>
+											</div>
+											<div class="checkbox-value">2</div>
 										</div>
-										<p>от 15% до 57% до конца месяца</p><a class="btn" href="#">Подробнее</a>
 									</div>
-									<div class="shares-big-img row no-gutters align-items-center hidden-xs">
-										<div><img src="http://via.placeholder.com/124x308" alt=""></div>
+								</div>
+								<div class="sidebar__item">
+									<div class="sidebar__btn"><span class="table-cell sidebar__arrow"><img src="images/arrow-down-24.svg" alt=""></span><span class="table-cell">Для кого</span></div>
+									<div class="sidebar__content">
+										<div class="checkbox-row">
+											<div class="row no-gutters align-items-center justify-content-between">
+												<div class="checkbox-item">
+													<input class="checkbox" type="checkbox" id="val">
+													<label for="val">
+														 Значение</label>
+												</div>
+												<div class="checkbox-value">26</div>
+											</div>
+										</div>
+										<div class="checkbox-row">
+											<div class="row no-gutters align-items-center justify-content-between">
+												<div class="checkbox-item">
+													<input class="checkbox" type="checkbox" id="val2">
+													<label for="val2">
+														 Значение</label>
+												</div>
+												<div class="checkbox-value">2</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="sidebar__item sidebar__footer"><a class="btn btn--black btn--sidebar" href="#">Сбросить фильтр</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="content-center">
+						<div class="row">
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
 									</div>
 								</div>
 							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="product-item">
+									<div class="product-img row no-gutters align-items-center">
+										<div class="product-hidden">
+											<div class="row no-gutters align-items-center">
+												<div>
+													<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
+														<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
+												</div>
+											</div>
+										</div>
+										<div><img src="http://via.placeholder.com/66x166" alt=""></div>
+									</div>
+									<div class="product-category">Женская парфюмерия</div>
+									<div class="product-name">Montale Oudmazing Montale</div>
+									<div class="product-footer row no-gutters justify-content-between align-items-center">
+										<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
+										<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
+									</div>
+								</div>
+							</div>
+						</div><a class="btn btn--black btn--more" href="#">Показать еще</a>
+						<div class="pagination row no-gutters align-items-center justify-content-between">
+							<div class="pagination-item hidden-sm">
+								<ul class="pagination__pages middle">
+									<li><a class="current" href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+								</ul><a class="pagination__btn middle" href="#">Вперед</a>
+							</div>
+							<div class="pagination__select">
+								<select class="select-item">
+									<option>Показывать по 5</option>
+									<option>Показывать по 10</option>
+								</select>
+							</div>
 						</div>
-						<div class="shares-btn">
-							<div class="prev-btn shares-prev middle"><img src="images/arrow-left-40.svg" alt=""></div>
-							<div class="next-btn shares-next middle"><img src="images/arrow-right-40.svg" alt=""></div>
+						<div class="content-text hidden-sm">
+							<h3>Наша парфюмерия</h3>
+							<p>Мы сотрудничаем с крупнейшими и проверенными временем поставщиками оригинальной косметики и парфюмерии, что позволяет нам обеспечивать высокий ассортимент и гарантировать Вам оригинальность духов и туалетной воды. Покупая у нас, Вы можете не сомневаться, что покупаете оригинальные ароматы. Мы дорожим нашей репутацией и сотнями наших постоянных клиентов.</p>
+							<p>Парфюмерия - идеальный подарок, на праздник и не только! Вместе с заказом Вы можете приобрести подарочную упаковку - красивую коробку или пакет. Также мы дарим каждому покупателю дисконтную карту - чтобы Вам было проще заказать туалетную воду или духи у нас в будущем, и можно было сэкономить за счет скидки по карте.</p>
+							<p>Мы ценим наших клиентов, и хотим, чтобы нас рекомендовали знакомым. Вежливые менеджеры Вас проконсультируют по любым вопросам, делаете ли Вы заказ по телефону или через сайт нашего интернет магазина.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="banner">
-			<div class="container">
-				<div class="banner__content row no-gutters justify-content-between align-items-center">
-					<div class="timer">
-						<div class="countdown-container" id="clock"></div>
-					</div>
-					<div class="banner__img hidden-sm"><img src="http://via.placeholder.com/75x175" alt=""></div>
-					<div class="banner__text hidden-md">суровые зимние скидки до -70% не упусти свой шанс сэкономить</div>
-					<div class="banner__btn"><a class="btn btn--white" href="#">Узнать подробнее</a></div>
-					<div class="banner__text visible-md">суровые зимние скидки до -70% не упусти свой шанс сэкономить</div>
-				</div>
-			</div>
-		</div>
-		<div class="advantages">
-			<div class="container">
-				<h2 class="item-title">Наши преимущества</h2>
-				<div class="row">
-					<div class="col-lg-3 col-sm-6 advantages__item">
-						<div class="advantages__item">
-							<div class="advantages__icon"><img src="images/original-production-104.svg" alt=""></div>
-							<div class="advantages__text">100% оригинальная продукция</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6 advantages__item">
-						<div class="advantages__item">
-							<div class="advantages__icon"><img src="images/delivery-104.svg" alt=""></div>
-							<div class="advantages__text">Быстрая доставка</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6 advantages__item">
-						<div class="advantages__item">
-							<div class="advantages__icon"><img src="images/delivery-v-sng-104.svg" alt=""></div>
-							<div class="advantages__text">Доставка в СНГ</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6 advantages__item">
-						<div class="advantages__item">
-							<div class="advantages__icon"><img src="images/ogromniy-vibor-104.svg" alt=""></div>
-							<div class="advantages__text">Более 50 000 наименований</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="novelties">
+		<div class="also-view">
 			<div class="container">
 				<div class="carousel-header row no-gutters justify-content-between align-items-center">
-					<h2 class="item-title">Новинки</h2>
+					<h2 class="item-title">Ранее вы смотрели</h2>
 					<div class="carousel-btn">
 						<div class="prev-btn nowelty-prev middle"><img src="images/arrow-left-40.svg" alt=""></div>
 						<div class="next-btn nowelty-next middle"><img src="images/arrow-right-40.svg" alt=""></div>
@@ -326,200 +436,6 @@
 							<div class="product-footer row no-gutters justify-content-between align-items-center">
 								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
 								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="popular">
-			<div class="container">
-				<div class="carousel-header row no-gutters justify-content-between align-items-center">
-					<h2 class="item-title">Популярные товары</h2>
-					<div class="carousel-btn">
-						<div class="prev-btn advantages-prev middle"><img src="images/arrow-left-40.svg" alt=""></div>
-						<div class="next-btn advantages-next middle"><img src="images/arrow-right-40.svg" alt=""></div>
-					</div>
-				</div>
-				<div class="product-carousel advantages-carousel">
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="product-item">
-							<div class="product-img row no-gutters align-items-center">
-								<div class="product-hidden">
-									<div class="row no-gutters align-items-center">
-										<div>
-											<div class="product-like"><a href="#"><img src="images/heart-24.svg" alt=""></a></div><a href="#">
-												<div class="product-view"><span class="middle eye-icon"><img src="images/eye-24.svg" alt=""></span><span class="middle product-view__text">Быстрый просмотр</span></div></a>
-										</div>
-									</div>
-								</div>
-								<div><img src="http://via.placeholder.com/66x166" alt=""></div>
-							</div>
-							<div class="product-category">Женская парфюмерия</div>
-							<div class="product-name">Montale Oudmazing Montale</div>
-							<div class="product-footer row no-gutters justify-content-between align-items-center">
-								<div class="product-price"><span class="check-item middle"><img src="images/arrow-check-24.svg" alt=""></span><span class="price-info"> <span>936 Р</span><span class="rub"></span></span></div>
-								<div class="product-button"><a class="btn btn--black" href="#">В корзину</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="article">
-			<div class="container">
-				<div class="carousel-header row no-gutters justify-content-between align-items-center">
-					<h2 class="item-title">Полезные статьи</h2>
-					<div class="carousel-btn">
-						<div class="prev-btn article-prev middle"><img src="images/arrow-left-40.svg" alt=""></div>
-						<div class="next-btn article-next middle"><img src="images/arrow-right-40.svg" alt=""></div>
-					</div>
-				</div>
-				<div class="article-carousel">
-					<div>
-						<div class="article__item">
-							<div class="row no-gutters">
-								<div class="col-xl-9 col-lg-8 col-md-7">
-									<div class="article__img row no-gutters align-items-center">
-										<div><img src="http://via.placeholder.com/120x300" alt=""></div>
-									</div>
-								</div>
-								<div class="col-xl-3 col-lg-4 col-md-5">
-									<div class="article__descr text-block row no-gutters align-items-center">
-										<div>
-											<div class="shares__title">
-												<h4><span>Выбираем</span><b>парфюм на лето</b></h4>
-											</div>
-											<p>При нанесении запах сначала холодный, чуть резковатый, затем раскрываясь, становится мягче, теплее, на окончании…</p><a class="btn" href="#">Подробнее</a><a class="link article__more" href="#">Все статьи</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="article__item">
-							<div class="row no-gutters">
-								<div class="col-xl-9 col-lg-8 col-md-7">
-									<div class="article__img row no-gutters align-items-center">
-										<div><img src="http://via.placeholder.com/120x300" alt=""></div>
-									</div>
-								</div>
-								<div class="col-xl-3 col-lg-4 col-md-5">
-									<div class="article__descr text-block row no-gutters align-items-center">
-										<div>
-											<div class="shares__title">
-												<h4><span>Выбираем</span><b>парфюм на лето</b></h4>
-											</div>
-											<p>При нанесении запах сначала холодный, чуть резковатый, затем раскрываясь, становится мягче, теплее, на окончании…</p><a class="btn" href="#">Подробнее</a><a class="link article__more" href="#">Все статьи</a>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>

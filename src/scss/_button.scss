@@ -30,6 +30,21 @@
   	border-color: $purple;
   }
 }
+.btn--sidebar{
+  width: 170px;
+}
+.btn--more{
+  width: 100%;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #666561;
+}
 .btn--form{
   width: 232px;
   height: 56px;

@@ -5,13 +5,14 @@
 	&__content{
 		height: 95px;
 		padding: 0 40px;
-		background-color: #b4a19d;
+		background: url(../images/fon.png)no-repeat 50%;
+		background-size: cover;
 	}
 	&__text{
 		max-width: 380px;
 		text-transform: uppercase;
 		font-size: 20px;
-		 color: #fafafa;
+		color: #fafafa;
 	}
 }
 .countdown-container{

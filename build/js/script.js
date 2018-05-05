@@ -94,3 +94,15 @@ $('#clock').countdown('2020/10/10', function(event) {
     + '<div><span>%M</span> минут</div> '
     + '<div><span>%S</span> секунд</div>'));
 });
+
+$('.toggle-sidebar').click(function(event) {
+  var sidebar = $('#sidebar')
+  if(sidebar.is(':hidden')){
+    $(this).addClass('active')
+    sidebar.slideDown(250)
+  }
+  else{
+    $(this).removeClass('active')
+    sidebar.slideUp(250)
+  }
+});

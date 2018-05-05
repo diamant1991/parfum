@@ -4,3 +4,7 @@ body{
 	font-family: $roboto;
 	color: #000;
 }
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}

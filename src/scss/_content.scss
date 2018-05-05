@@ -1,0 +1,127 @@
+.content{
+	padding-top: 25px;
+	background: #fafafa;
+}
+.catalog-filter-wrapp{
+	margin-bottom: 25px;
+}
+.catalog-filter{
+	background: #fff;
+	border: solid 1px #e5e5e5;
+	padding: 12px 15px;
+	width: 100%;
+}
+.sorting{
+	font-size: 14px;
+
+	&__item{
+		color: $grey;
+
+		&.is-active{
+			color: #5983f0;
+			font-weight: 500;
+		}
+
+		+ .sorting__item{
+			margin-left: 25px;
+		}
+	}
+}
+.view{
+	&-btn{
+		display: inline-block;
+		vertical-align: middle;
+		width: 24px;
+		height: 24px;
+		opacity: 0.5;
+
+		&.is-active{
+			opacity: 1;
+		}
+
+		&--list{
+			background: url(../images/cotegoria-spisok-24.svg)no-repeat;
+		}
+		&--column{
+			margin-left: 7px;
+			background: url(../images/cotegoria-plitka-24.svg)no-repeat;
+		}
+	}
+}
+
+.sidebar{
+	width: 265px;
+
+	&__arrow{
+		width: 30px;
+	}
+
+	&__footer{
+		text-align: center;
+		padding: 25px 15px;
+	}
+
+	&__content{
+		padding: 20px 15px;
+		display: none;
+		border-bottom: 1px solid #f0f0f0;
+	}
+
+	&__btn{
+		padding: 15px;
+		cursor: pointer;
+		font-size: 16px;
+		color: #1a1918;
+		border-bottom: 1px solid #f0f0f0;
+
+		&.active{
+			.sidebar__arrow{
+				img{
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
+}
+.sidebar-wrapp{
+	background: #fff;
+	box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.05);
+}
+.content-center{
+	width: calc(100% - 300px);
+}
+.checkbox-row{
+	.checkbox + label{
+		color: #1a1918;
+		font-size: 14px;
+	}
+	+ .checkbox-row{
+		margin-top: 20px;
+	}
+}
+.content-center{
+	.product-item{
+		margin-bottom: 30px;
+	}
+}
+
+.also-view{
+	padding: 50px 0;
+	background: #f5f4f0;
+}
+
+.filter-btn{
+	width: 120px;
+	height: 55px;
+	line-height: 53px;
+	border-color: #e5e5e5;
+	color: #666561;
+	font-size: 14px;
+	font-weight: 400;
+
+	&.active{
+		background: $purple;
+		color: #fff;
+		border-color: $purple;
+	}
+}

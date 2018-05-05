@@ -44,6 +44,15 @@
 	}
 }
 .logo{
+	&__icon{
+		width: 30px;
+		text-align: left;
+
+		img{
+			position: relative;
+			top: 2px;
+		}
+	}
 	&__name{
 		width: 136px;
 		height: 32px;
@@ -118,7 +127,6 @@
 	border-bottom: 1px solid #e5e5e5;
 	font-size: 14px;
 	color: $grey;
-	margin-bottom: 25px;
 }
 .alphabet{
 	a{

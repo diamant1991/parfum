@@ -41,6 +41,22 @@
 	.hidden-md{
 		display: none;
 	}
+	.sidebar{
+		display: none;
+	}
+	.catalog-filter-wrapp{
+		margin-bottom: 0;
+	}
+	.catalog-filter{
+		width: calc(100% - 135px);
+	}
+	.sidebar{
+		width: 100%;
+	}
+	.content-center{
+		width: 100%;
+		margin-top: 25px;
+	}
 	.top-panel__item + .top-panel__item{
 		margin-left: 0;
 	}
@@ -137,8 +153,30 @@
 		width: 100%;
 		border-top: 1px solid #e5e5e5;
 	}
+	.page-title{
+		font-size: 24px;
+	}
+	.filter-btn{
+		height: 40px;
+		line-height: 38px;
+	}
+	.sidebar__btn{
+		font-size: 14px;
+	}
+	.filter-btn{
+		width: 49%;
+		font-size: 12px;
+	}
 	.banner{
 		margin-top: 30px;
+	}
+	.pagination__select{
+		width: 100%;
+		
+
+		.select-item{
+			text-align: center;
+		}
 	}
 	.reverse-sm{
     flex-direction: column-reverse !important;

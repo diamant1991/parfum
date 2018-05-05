@@ -1,0 +1,116 @@
+extends pug/base
+
+append vars
+	//- ...
+
+block content
+	include pug/header
+	.content
+		.container
+			include pug/breadcrumb
+			h1.page-title Каталог товаров
+			include pug/catalog-filter
+			.row.no-gutters.justify-content-between
+				.sidebar#sidebar
+					.sidebar-wrapp
+						.sidebar__item
+							.sidebar__btn.active
+								span.table-cell.sidebar__arrow
+									img(src="images/arrow-down-24.svg", alt="")
+								span.table-cell Бренд
+							.sidebar__content(style="display: block")
+								.checkbox-row
+									.row.no-gutters.align-items-center.justify-content-between
+										.checkbox-item
+											input(type="checkbox")#val.checkbox
+											label(for="val") 
+												| Значение
+										.checkbox-value 26
+								.checkbox-row
+									.row.no-gutters.align-items-center.justify-content-between
+										.checkbox-item
+											input(type="checkbox")#val2.checkbox
+											label(for="val2") 
+												| Значение
+										.checkbox-value 2
+							.sidebar__item
+								.sidebar__btn
+									span.table-cell.sidebar__arrow
+										img(src="images/arrow-down-24.svg", alt="")
+									span.table-cell Для кого
+								.sidebar__content
+									.checkbox-row
+										.row.no-gutters.align-items-center.justify-content-between
+											.checkbox-item
+												input(type="checkbox")#val.checkbox
+												label(for="val") 
+													| Значение
+											.checkbox-value 26
+									.checkbox-row
+										.row.no-gutters.align-items-center.justify-content-between
+											.checkbox-item
+												input(type="checkbox")#val2.checkbox
+												label(for="val2") 
+													| Значение
+											.checkbox-value 2
+							.sidebar__item.sidebar__footer
+								a(href="#").btn.btn--black.btn--sidebar Сбросить фильтр
+				.content-center
+					.row
+						.col-xl-4.col-md-6
+							include pug/product-item
+						.col-xl-4.col-md-6
+							include pug/product-item
+						.col-xl-4.col-md-6
+							include pug/product-item
+						.col-xl-4.col-md-6
+							include pug/product-item
+						.col-xl-4.col-md-6
+							include pug/product-item
+						.col-xl-4.col-md-6
+							include pug/product-item
+					a(href="#").btn.btn--black.btn--more Показать еще
+					.pagination.row.no-gutters.align-items-center.justify-content-between
+						.pagination-item.hidden-sm
+							ul.pagination__pages.middle
+								li
+									a(href="#").current 1
+								li
+									a(href="#") 2
+								li
+									a(href="#") 3
+							a(href="#").pagination__btn.middle Вперед
+						.pagination__select
+							select.select-item
+								option Показывать по 5
+								option Показывать по 10
+					.content-text.hidden-sm
+						h3 Наша парфюмерия
+						p Мы сотрудничаем с крупнейшими и проверенными временем поставщиками оригинальной косметики и парфюмерии, что позволяет нам обеспечивать высокий ассортимент и гарантировать Вам оригинальность духов и туалетной воды. Покупая у нас, Вы можете не сомневаться, что покупаете оригинальные ароматы. Мы дорожим нашей репутацией и сотнями наших постоянных клиентов.
+						p Парфюмерия - идеальный подарок, на праздник и не только! Вместе с заказом Вы можете приобрести подарочную упаковку - красивую коробку или пакет. Также мы дарим каждому покупателю дисконтную карту - чтобы Вам было проще заказать туалетную воду или духи у нас в будущем, и можно было сэкономить за счет скидки по карте.
+						p Мы ценим наших клиентов, и хотим, чтобы нас рекомендовали знакомым. Вежливые менеджеры Вас проконсультируют по любым вопросам, делаете ли Вы заказ по телефону или через сайт нашего интернет магазина.
+	.also-view
+		.container
+			.carousel-header.row.no-gutters.justify-content-between.align-items-center
+				h2.item-title Ранее вы смотрели
+				.carousel-btn
+					.prev-btn.nowelty-prev.middle
+						img(src="images/arrow-left-40.svg", alt="")
+					.next-btn.nowelty-next.middle
+						img(src="images/arrow-right-40.svg", alt="")
+			.product-carousel.novelties-carousel
+				div
+					include pug/product-item
+				div
+					include pug/product-item
+				div
+					include pug/product-item
+				div
+					include pug/product-item
+				div
+					include pug/product-item
+				div
+					include pug/product-item
+	include pug/form
+	include pug/footer
+	

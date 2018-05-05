@@ -65,22 +65,31 @@ textarea.form-control{
   	border-bottom: 1px dotted;
   }
 }
-.checkbox + label:before {
+.checkbox + label:before{
   content: '';
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border-radius: 2px;
-  background-color: #ba006d;
+  background-color: #fff;
+  border: 1px solid #a2a2a2;
   top: -4px;
   left: 0;
 }
-.checkbox + label:after {
+.checkbox:checked + label:before {
+  background-color: #ba006d;
+  border-color: #ba006d;
+}
+.checkbox:checked + label:after {
   content: '';
   position: absolute;
-  top: 2px;
-  left: 5px;
+  top: 1px;
+  left: 4px;
   width: 16px;
   height: 12px;
   background: url(../images/check.svg)no-repeat;
+}
+.checkbox-value{
+  font-size: 14px;
+  color: #a2a2a2;
 }

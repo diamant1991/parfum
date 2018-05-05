@@ -6,6 +6,11 @@ i{
 	font-weight: 400;
 	font-style: italic;
 }
+h3{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
 h4{
 	font-size: 20px;
 }
@@ -37,4 +42,23 @@ h2{
 	font-size: 14px;
 
 	border-bottom: 1px dashed;
+}
+.page-title{
+	font-size: 32px;
+	color: #1a1918;
+	margin-bottom: 30px;
+	line-height: 1;
+}
+.content-text{
+	font-size: 14px;
+	line-height: 1.7;
+	padding-bottom: 50px;
+
+	p{
+		color: #4b4b4b;
+
+		+ p{
+			margin-top: 10px;
+		}
+	}
 }
