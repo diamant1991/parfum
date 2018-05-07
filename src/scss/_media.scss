@@ -1,3 +1,8 @@
+@media(min-width: 1200px){
+	.visible-lg{
+		display: none !important;
+	}
+}
 @media(max-width: 1199px){
 	.menu li + li{
 		margin-left: 5px;
@@ -15,8 +20,22 @@
 	.shares-carousel-text{
 		max-width: 215px;
 	}
+	.card-mobile-top{
+		padding: 20px 25px;
+		padding-bottom: 0;
+	}
+	.card__img{
+		height: 360px;
+
+		img{
+			max-height: 360px;
+		}
+	}
 	h2{
 		font-size: 30px;
+	}
+	.card-tab__item{
+		font-size: 14px;
 	}
 	.banner__text{
 		max-width: 260px;
@@ -30,6 +49,15 @@
 	}
 	.top-panel__item + .top-panel__item{
 		margin-left: 25px;
+	}
+	.card__slider{
+		padding-left: 15px;
+	}
+	.card__thumb{
+		display: none;
+	}
+	.hidden-lg{
+		display: none;
 	}
 }
 @media(min-width: 992px){
@@ -155,6 +183,49 @@
 	}
 	.page-title{
 		font-size: 24px;
+	}
+	.card-tab-mobile{
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+	.content{
+		padding-bottom: 25px;
+	}
+	.card__total{
+		padding: 10px 0;
+		padding-bottom: 0;
+	}
+	.card{
+		h3{
+			font-size: 22px;
+			font-weight: normal;
+		}
+	}
+	
+	.card__img{
+		height: 250px;
+
+		img{
+			max-height: 250px;
+		}
+	}
+	.card{
+		padding-bottom: 20px;
+	}
+	.card__total__content{
+		box-shadow: none;
+	}
+	.card-mobile-top{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.card__value__item{
+		max-width: inherit;
+		width: 100%;
+	}
+	.card__item{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.filter-btn{
 		height: 40px;
