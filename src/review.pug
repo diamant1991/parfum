@@ -1,0 +1,142 @@
+extends pug/base
+
+append vars
+	//- ...
+
+block content
+	include pug/header
+	.content
+		.container
+			include pug/breadcrumb
+			h1.page-title Последние отзывы о товарах
+			.reviews
+				.reviews__item.row.no-gutters
+					.col-xl-3.col-lg-3.col-md-4
+						.product-item.product-item--review
+							.product-hidden
+								.row.no-gutters.align-items-center
+									div
+										.product-like.product-like--review
+											a(href="#")
+												img(src="images/heart-24.svg", alt="")
+										a(href="#")
+											.product-view
+												span.middle.eye-icon
+													img(src="images/eye-24.svg", alt="")
+												span.middle.product-view__text Быстрый просмотр
+									.product-footer.product-footer--review.row.no-gutters.justify-content-between.align-items-center
+										.product-price
+											span.check-item.middle
+												img(src="images/arrow-check-24.svg", alt="")
+											span.price-info 
+												span 936 Р
+												span.rub
+										.product-button
+											a(href="#").btn.btn--black В корзину
+							.product-img.row.no-gutters.align-items-center
+								div
+									img(src="http://via.placeholder.com/66x166", alt="")
+							.product-category Женская парфюмерия
+							.product-name Montale Oudmazing Montale
+					.col-xl-9.col-lg-9.col-md-8
+						.reviews__content
+							.reviews__descr
+								.autor-img
+								.reviews__header.row.no-gutters.align-items-center.justify-content-between
+									.autor-name Корнеева Надежда
+									.date 26 февраля 2018
+								.rating
+									.rating__text.middle
+										i Рейтинг товара:
+									.b-review__form--rating.j-rating.small-rating.middle.clearfix
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="1").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="2").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="3").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="4").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="5").m-select
+										input(type="hidden" name="rating")
+								.content-text
+									p Муж подарин на новый год эти прекрасные духи. До этого постоянно пользовалась другими духами и полностью была довольна, но теперь у меня появились эти и стали моими фаворитами)
+								.like
+									.like-btn.middle
+										span.middle
+											img(src="images/thumb-up-black-24.svg", alt="")
+										span.middle.like-count.like-green 7
+									.like-btn.middle
+										span.middle
+											img(src="images/thumb-down-black-24.svg", alt="").like-down
+										span.middle.like-count.like-red 3
+				.reviews__item.row.no-gutters
+					.col-xl-3.col-lg-3.col-md-4
+						.product-item.product-item--review
+							.product-hidden
+								.row.no-gutters.align-items-center
+									div
+										.product-like.product-like--review
+											a(href="#")
+												img(src="images/heart-24.svg", alt="")
+										a(href="#")
+											.product-view
+												span.middle.eye-icon
+													img(src="images/eye-24.svg", alt="")
+												span.middle.product-view__text Быстрый просмотр
+									.product-footer.product-footer--review.row.no-gutters.justify-content-between.align-items-center
+										.product-price
+											span.check-item.middle
+												img(src="images/arrow-check-24.svg", alt="")
+											span.price-info 
+												span 936 Р
+												span.rub
+										.product-button
+											a(href="#").btn.btn--black В корзину
+							.product-img.row.no-gutters.align-items-center
+								div
+									img(src="http://via.placeholder.com/66x166", alt="")
+							.product-category Женская парфюмерия
+							.product-name Montale Oudmazing Montale
+					.col-xl-9.col-lg-9.col-md-8
+						.reviews__content
+							.reviews__descr
+								.autor-img
+								.reviews__header.row.no-gutters.align-items-center.justify-content-between
+									.autor-name Корнеева Надежда
+									.date 26 февраля 2018
+								.rating
+									.rating__text.middle
+										i Рейтинг товара:
+									.b-review__form--rating.j-rating.small-rating.middle.clearfix
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="1").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="2").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="3").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="4").m-select
+										.b-review__form--star.glyphicon.glyphicon-star(data-index="5").m-select
+										input(type="hidden" name="rating")
+								.content-text
+									p Муж подарин на новый год эти прекрасные духи. До этого постоянно пользовалась другими духами и полностью была довольна, но теперь у меня появились эти и стали моими фаворитами)
+								.like
+									.like-btn.middle
+										span.middle
+											img(src="images/thumb-up-black-24.svg", alt="")
+										span.middle.like-count.like-green 7
+									.like-btn.middle
+										span.middle
+											img(src="images/thumb-down-black-24.svg", alt="").like-down
+										span.middle.like-count.like-red 3
+			a(href="#").btn.btn--black.btn--more Показать еще
+			.pagination.row.no-gutters.align-items-center.justify-content-between
+				.pagination-item.hidden-sm
+					ul.pagination__pages.middle
+						li
+							a(href="#").current 1
+						li
+							a(href="#") 2
+						li
+							a(href="#") 3
+					a(href="#").pagination__btn.middle Вперед
+				.pagination__select
+					select.select-item
+						option Показывать по 5
+						option Показывать по 10
+
+	include pug/form
+	include pug/footer

@@ -72,6 +72,12 @@
 	.sidebar{
 		display: none;
 	}
+	.reviews__descr{
+		padding-left: 0;
+	}
+	.autor-img{
+		display: none;
+	}
 	.catalog-filter-wrapp{
 		margin-bottom: 0;
 	}
@@ -181,8 +187,14 @@
 		width: 100%;
 		border-top: 1px solid #e5e5e5;
 	}
+	.reviews__content{
+		padding: 15px;
+	}
 	.page-title{
 		font-size: 24px;
+	}
+	.reviews__content{
+		border-left: 0;
 	}
 	.card-tab-mobile{
 		border-bottom: 0;
